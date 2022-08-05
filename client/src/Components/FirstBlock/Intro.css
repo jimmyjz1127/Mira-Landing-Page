@@ -1,0 +1,88 @@
+
+
+.intro {
+    display:block;
+    position:static;
+    width:100%;
+    margin:15%;
+}
+
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sub-text {
+    text-align: left;
+}
+
+.intro-btns {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:30vw;
+}
+
+.intro-btn {
+    font-size:35px;
+    border-radius: 24px;
+    padding:15px;
+    font-weight:normal;
+}
+
+.learn-btn {
+    border:solid;
+    border-width: 1px;
+    border-color:white;
+    color:white;
+    background-color: transparent;
+
+    /* temp */
+    margin-right:20px;
+}
+
+.learn-btn:hover {
+    color:rgb(40, 40, 40);
+    background-color: white;
+}
+
+.launch-btn {
+    background-color: yellow;
+    border:none;
+}
+
+.email-box  {
+    display:flex;
+    justify-content: space-between;
+
+    border:solid;
+    padding:8px;
+    border-radius:0.25rem;
+    width:30vw;
+    height:auto;
+}
+
+.email-input {
+    flex-grow:1;
+    border:none;
+    background-color: transparent;
+    font-size:20px;    
+}
+
+.email-box > button {
+    flex-grow:1;
+    font-size: 16px;
+    background-color:navy;
+    color:white;    
+    padding: 10px;
+    border-radius: 0.25rem;
+    border:none;
+}
+
+.email-box > button:hover {
+    cursor:pointer;
+}
+
+
