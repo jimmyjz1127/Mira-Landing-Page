@@ -14,6 +14,9 @@
     z-index:100;
 
     background-color: black;
+
+    position:fixed;
+    top:0;
 }
 
 .logo-wrapper {

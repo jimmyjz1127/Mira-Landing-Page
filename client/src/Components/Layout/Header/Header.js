@@ -10,11 +10,10 @@ import {SocialIcon} from 'react-social-icons';
 function Header(props) {
 
     return (
-        // <div className='header'>
             <nav className='nav-bar'>
                 <div className='logo-wrapper'>
                     <img src='http://localhost:5000/logo' className='logo'/>
-                    <h1 className='nav-title'>Mira Finance</h1>
+                    <h1 className='nav-title'>Mira <span className='navy-text'>Finance</span></h1>
                 </div>
 
                 <div className='header-socials'>
@@ -33,7 +32,6 @@ function Header(props) {
                     <button className='nav-social-item blog-btn'>Blog</button>
                 </div>
             </nav>
-        // </div>
     );
 }
 

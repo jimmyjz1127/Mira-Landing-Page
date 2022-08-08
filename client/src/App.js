@@ -6,11 +6,20 @@ import Intro from './Components/FirstBlock/Intro.js';
 
 
 function App() {
+  const getStyle = () => {
+    return {
+      backgroundImage:`url("http://localhost:5000/background")`,
+      backgroundPosition:"center center",
+      backgroundSize:"100% 100%",
+      backgroundRepeat: "no-repeat"
+    }
+  }
+
   return (
-    <div className="App">
-      
-      <div class='container'>
-        <Header/>
+    <div className="App" style={getStyle()}>
+      <Header/>
+      <div className='container' >
+        
         <Intro/>
         
       </div>

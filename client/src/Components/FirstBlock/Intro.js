@@ -11,7 +11,7 @@ function Intro() {
 
     const getStyle = () => {
         return {
-            backgroundImage:`url("http://localhost:5000/first-block")`,
+            backgroundImage:`url("http://localhost:5000/background")`,
             backgroundPosition:"center",
             backgroundSize:"cover",
             backgroundRepeat: "no-repeat"
@@ -19,47 +19,49 @@ function Intro() {
     }
 
     return (
-        <div >
-            <div className='intro white-text' >
-                <div className='left-col'>
-                    <div className='section-label yellow-text'>
-                        Next Generation of Index Management
-                    </div>
-                    <br/>
-                    <br/>
-                    
-                    <div className='sub-text'>
-                        Making crypto investing simple by offering:
+            <div className='intro-wrapper white-text' >
+                <div className='intro'>
+                    <div className='left-col'>
+                        <div className='section-label white-text'>
+                            <h2>
+                                Next
+                                <span className='navy-text'> Generation</span>
+                                <br/>
+                                Index Management
+                            </h2>
+                        </div>
+                        
                         <br/>
-                        Cross chain index funds   
+                        
+                        <div className='sub-text'>
+                            Making crypto investing simple by offering
+                            cross chain index funds,   
+                            composable index management,
+                            onramps to decentralized finance
+                        </div>                
+                        
                         <br/>
-                        Composable index management
                         <br/>
-                        Onramps to decentralized finance
-                    </div>                
-                    
-                    <br/>
-                    <br/>
-                    <div className='signup-form'>
-                        <form className='email-form '>
-                            <div className='email-box'>
-                                <input className='email-input' type='text' placeholder='Email*'></input>
-                                <button classname='btn email-submit'>Early Access</button>
-                            </div>
-                        </form>
-                    </div>
+                        <div className='signup-form'>
+                            <form className='email-form '>
+                                <div className='email-box'>
+                                    <input className='email-input' type='text' placeholder='Email*'></input>
+                                    <button className='btn email-submit'>Early Access</button>
+                                </div>
+                            </form>
+                        </div>
 
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div className='intro-btns'>
-                        <button className='btn intro-btn learn-btn'>Learn More</button>
-                        <button className='btn intro-btn launch-btn'>Launch App</button>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div className='intro-btns'>
+                            <button className='btn intro-btn learn-btn'>Learn More</button>
+                            <button className='btn intro-btn launch-btn'>Launch App</button>
+                        </div>
                     </div>
+                    <img src='http://localhost:5000/dex' className='dex'/>
                 </div>
-            </div>
-        </div>
-        
+            </div>        
     );
 }
 
