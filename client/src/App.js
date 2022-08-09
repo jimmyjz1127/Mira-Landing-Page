@@ -3,6 +3,7 @@ import './App.css';
 // components
 import Header from './Components/Layout/Header/Header.js';
 import Intro from './Components/FirstBlock/Intro.js';
+import MainPoints from './Components/SecondBlock/MainPoints';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <div className='container' >
         
         <Intro/>
+        <MainPoints/>
         
       </div>
     </div>

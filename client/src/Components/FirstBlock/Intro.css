@@ -1,32 +1,53 @@
-
-
 .intro-wrapper {
     display:block;
-    width:100%;
-    padding:15%;
+    max-width:fit-content;
+    padding:10% 0% 10% 10%;
+
+    box-sizing: border-box;
 }
 
-.intro {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+
+.intro {    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+    min-height:100%;
+
+    position:relative;
 }
 
-.dex {
-    overflow:hidden;
-    margin:auto;
-    border-radius:0.5rem;
+.intro > div {
+    flex:0 0 50%;
+    height:100%;
+    /* position:relative; */
+
 }
 
+.col2 > img {
+    border-radius: 0.5rem;
+    object-fit: cover;
+    height:auto;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.col1 > div {
+    min-width:50%;
+}
 
 .sub-text {
+    flex:0 0 100%;
     text-align: left;
+    width: 50%;
 }
+
+/*----------------button styling-----------------*/
 
 .intro-btns {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    width:30vw;
 }
 
 .intro-btn {
@@ -36,20 +57,17 @@
     font-weight:normal;
 }
 
+.intro-btn:hover {
+    color:rgb(40, 40, 40);
+    background-color: white;
+}
+
 .learn-btn {
     border:solid;
     border-width: 1px;
     border-color:white;
     color:white;
     background-color: transparent;
-
-    /* temp */
-    margin-right:20px;
-}
-
-.learn-btn:hover {
-    color:rgb(40, 40, 40);
-    background-color: white;
 }
 
 .launch-btn {
@@ -60,15 +78,25 @@
     background-color: transparent;
 }
 
+/* --------------------- Email Input Styling ----------------------- */
+
+.signup-form {
+    height:auto;
+    min-height:auto;
+    min-width:500px;
+}
+
 .email-box  {
     display:flex;
     justify-content: space-between;
+    flex-grow:1;
+    flex-shrink:1;
 
     border:solid;
     padding:8px;
     border-radius:0.25rem;
-    width:30vw;
-    height:auto;
+    width:100%;
+    height:100%;
 }
 
 .email-input {
@@ -76,6 +104,8 @@
     border:none;
     background-color: transparent;
     font-size:20px;    
+    padding:20px;
+    color:white;
 }
 
 .email-box > button {
