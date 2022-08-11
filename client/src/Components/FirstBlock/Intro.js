@@ -59,7 +59,7 @@ function Intro() {
                         </div>
                     </div>
                     <div className='col2'>
-                        <img src='http://localhost:5000/dex' />
+                        <img src='http://localhost:5055/dex' />
                     </div>
                 </div>
             </div>        

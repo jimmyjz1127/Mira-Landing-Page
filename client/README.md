@@ -1,6 +1,9 @@
 # Executing the program
     npm run dev (from top level directory)
 
+# After Pulling/Cloning from github
+    run 'npm install' in both top level directory and in the "client" directory
+
 # execution dependencies
     nodemon
     express (concurrently)
@@ -9,9 +12,6 @@
     react-icons
     react-social-icons (most likely will replace this)
 
-
-# After Pulling/Cloning from github
-    
 
 
 
