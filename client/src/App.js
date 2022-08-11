@@ -5,6 +5,7 @@ import Header from './Components/Layout/Header/Header.js';
 import Intro from './Components/FirstBlock/Intro.js';
 import MainPoints from './Components/SecondBlock/MainPoints.js';
 import Aptos from './Components/ThirdBlock/Aptos';
+import Partners from './Components/FourthBlock/Partners';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Intro/>
         <MainPoints/>
         <Aptos/>
+        <Partners/>
       </div>
     </div>
   );

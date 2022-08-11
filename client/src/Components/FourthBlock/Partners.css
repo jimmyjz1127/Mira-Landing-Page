@@ -1,12 +1,46 @@
+.partners-wrapper {
+    display:block;
 
+    width:100%;
 
+    box-sizing: border-box;
 
+    margin-top:15%;
+
+    padding:5% 5% 5% 5%;
+    backdrop-filter: blur(4px);
+}
+
+/* temp */
+h1 {
+    font-size: 40px;
+}
+
+.partner-logos {
+    max-width: 100%;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.row-partner {
+    flex: 1 1 0px;
+}
+
+.partner-logo {
+    height:auto;
+    max-width: 200px;
+}
 
 
 .bottom-line {
     width:100%;
-    height:1px;
-    margin-top: 5em;
+    height:10px;
+    margin-top: 2em;
     margin-bottom: 6.1em;
     background-image: linear-gradient(90deg,hsla(0,0%,100%,0),#fff 53%,hsla(0,0%,100%,0));
     opacity: 0.2;

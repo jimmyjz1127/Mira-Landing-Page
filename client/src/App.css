@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  min-height: fit-content;
 }
 
 .container {
   display: block;
+  box-sizing: border-box;
+  height:100%;
 }
 
 .btn:hover {

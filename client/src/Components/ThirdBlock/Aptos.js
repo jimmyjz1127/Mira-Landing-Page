@@ -7,7 +7,7 @@ function Aptos() {
     return (
         <div className='aptos-wrapper white-text'>
             <div className='aptos-intro'>
-                <h1>Powered By Aptos</h1>
+                <h1>POWERED BY APTOS</h1>
                 <p className='gray-text'>
                     Aptos is a new Layer 1 blockchain using the Move language, 
                     pipelined execution and other innovations for enabling production-ready 
@@ -55,7 +55,7 @@ function Aptos() {
                         <li>Access control (permissions) built in</li>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     )
