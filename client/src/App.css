@@ -1,19 +1,18 @@
 .App {
   text-align: center;
-  position:fixed;
-
-  width:100%;
 }
 
 .container {
-  min-height:100vh;  
+  /* min-height:100vh;   */
   display:block;
+
+  /* box-sizing: border-box; */
+  
 }
 
 .btn:hover {
   cursor:pointer;
 }
-
 
 .section-label {
   font-size:50px;

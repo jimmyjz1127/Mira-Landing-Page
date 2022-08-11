@@ -3,7 +3,7 @@ import './App.css';
 // components
 import Header from './Components/Layout/Header/Header.js';
 import Intro from './Components/FirstBlock/Intro.js';
-import MainPoints from './Components/SecondBlock/MainPoints';
+import MainPoints from './Components/SecondBlock/MainPoints.js';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     <div className="App" style={getStyle()}>
       <Header/>
       <div className='container' >
-        
+        <img src='https://www.flaticon.com/free-icons/blockchain' className='main-points-icon'/>
         <Intro/>
         <MainPoints/>
         
