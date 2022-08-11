@@ -1,0 +1,40 @@
+.aptos-wrapper {
+    display:block;
+
+    width:100%;
+
+    box-sizing: border-box;
+    padding: 5% 10% 5% 10%;
+
+}
+
+.aptos-intro {
+    margin:auto;
+    max-width:800px;
+
+    margin-bottom:5%;
+}
+
+.aptos-intro > h1 {
+    font-size:40px;
+}
+
+.aptos-intro > p {
+    font-size: large;
+}
+
+.aptos-grid {
+    margin:auto;
+    
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+    grid-row-gap:10%;
+}
+
+
+.aptos-item-list > li {
+    margin-bottom:2%;
+    font-size:large;
+    list-style-type:circle;
+}

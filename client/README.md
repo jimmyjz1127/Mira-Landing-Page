@@ -1,3 +1,20 @@
+# Executing the program
+    npm run dev (from top level directory)
+
+# execution dependencies
+    nodemon
+    express (concurrently)
+
+# React Dependencies
+    npm i react-icons
+    npm i react-social-icons (most likely will replace this)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

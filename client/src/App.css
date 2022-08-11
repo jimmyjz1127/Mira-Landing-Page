@@ -3,16 +3,25 @@
 }
 
 .container {
-  /* min-height:100vh;   */
-  display:block;
-
-  /* box-sizing: border-box; */
-  
+  display: block;
 }
 
 .btn:hover {
   cursor:pointer;
 }
+
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.no-outline:focus {
+  outline:none;
+}
+
+/* --------------- text formatting --------------- */
 
 .section-label {
   font-size:50px;
@@ -22,6 +31,15 @@
 
 .sub-text {
   font-size:25px;
+}
+
+
+.box-glow {
+  box-shadow: 5px 5px 5px 5px white;
+}
+
+.text-glow {
+  text-shadow:1px 1px 2px white;
 }
 
 .white-text {
@@ -36,20 +54,6 @@
   color:rgb(2, 2, 146);
 }
 
-.left-col {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.no-outline:focus {
-  outline:none;
-}
-
-.box-glow {
-  box-shadow: 5px 5px 5px 5px white;
-}
-
-.text-glow {
-  text-shadow:1px 1px 2px white;
+.gray-text {
+  color:gray;
 }
