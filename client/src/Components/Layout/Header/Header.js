@@ -12,7 +12,7 @@ function Header(props) {
     return (
             <nav className='nav-bar'>
                 <div className='logo-wrapper'>
-                    <img src='http://localhost:5000/logo' className='logo'/>
+                    <img src='http://localhost:5055/logo' className='logo'/>
                     <h1 className='nav-title'>Mira <span className='navy-text'>Finance</span></h1>
                 </div>
 

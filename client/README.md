@@ -6,8 +6,12 @@
     express (concurrently)
 
 # React Dependencies
-    npm i react-icons
-    npm i react-social-icons (most likely will replace this)
+    react-icons
+    react-social-icons (most likely will replace this)
+
+
+# After Pulling/Cloning from github
+    
 
 
 

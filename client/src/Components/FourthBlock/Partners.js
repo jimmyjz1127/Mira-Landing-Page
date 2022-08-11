@@ -13,7 +13,7 @@ function Partners() {
 
                     <div className='row-partner'>
                         <a href="https://pontem.network/">
-                            <img src='http://localhost:5000/pontem-logo' className='partner-logo'/>
+                            <img src='http://localhost:5055/pontem-logo' className='partner-logo'/>
                         </a>
                     </div>
 

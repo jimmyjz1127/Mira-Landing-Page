@@ -11,7 +11,7 @@ import Partners from './Components/FourthBlock/Partners';
 function App() {
   const getStyle = () => {
     return {
-      backgroundImage:`url("http://localhost:5000/background")`,
+      backgroundImage:`url("http://localhost:5055/background")`,
       backgroundPosition:"center center",
       backgroundSize:"100% 100%",
       backgroundRepeat: "no-repeat"

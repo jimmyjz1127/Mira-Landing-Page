@@ -11,7 +11,7 @@ function Intro() {
 
     const getStyle = () => {
         return {
-            backgroundImage:`url("http://localhost:5000/background")`,
+            backgroundImage:`url("http://localhost:5055/background")`,
             backgroundPosition:"center",
             backgroundSize:"cover",
             backgroundRepeat: "no-repeat"
