@@ -33,6 +33,7 @@ function Intro() {
                             </div>
                             
                             <br/>
+                            
                             <div className='sub-text'>
                                 Making crypto investing simple by offering
                                 cross chain index funds,   

@@ -31,6 +31,7 @@ function Partners() {
 
                 </div>
 
+                <h1></h1>
                 <div className='bottom-line'/>
 
                 <div className='row'>
